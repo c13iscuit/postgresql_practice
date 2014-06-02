@@ -1,0 +1,5 @@
+
+<%@movies.to_a.each do |hash|%>
+<a href = "/movies/<%="#{hash["id"]}"%>"> <%="#{hash["title"]}"%> </a><br>
+<%end%>
+
